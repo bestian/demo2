@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="ui menu inverted">
+    <nav class="ui menu">
       <a class="item" @click="visible = !visible">
         <i class="bars icon"></i>
       </a>
@@ -37,7 +37,6 @@
         animation="overlay"
         width="thin"
         icon="labeled"
-        inverted
         vertical
       >
         <sui-menu-item><router-link to="/"> <sui-icon name="home" /> 首頁 </router-link></sui-menu-item>
